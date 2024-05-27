@@ -1,6 +1,4 @@
-﻿using System.Security.AccessControl;
-
-internal class Program
+﻿internal class Program
 {
     static bool IsPalindrome(string str)
     {
@@ -18,11 +16,11 @@ internal class Program
             }
         }
 
-        Console.WriteLine($"{"Denary", -10} Binary");
+        Console.WriteLine($"{"Denary",-10} Binary");
 
         foreach (int num in palindromeNumber)
         {
-            Console.WriteLine($"{num, -10} {Convert.ToString(num, 2)}");
+            Console.WriteLine($"{num,-10} {Convert.ToString(num, 2)}");
         }
     }
 }
